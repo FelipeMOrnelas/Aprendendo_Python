@@ -4,18 +4,18 @@ Faça um programa que pergunte a hora ao usuário e, baseando-se no horário
 descrito, exiba a saudação apropriada.
 """
 
-horario = input("Digite que horas são: ")
+horario = input("Digite um horario (0-23): ")
 
 if horario.isdigit():
     horario = int(horario)
-    if(horario > 24):
+    if(horario > 23):
         print("O horário não existe!")
     else:
         if(horario >= 6 and horario <= 11):
             print("Bom Dia!")
         elif(horario >= 12 and horario <= 17):
             print("Boa Tarde!")
-        elif(horario >= 18 and horario <= 24):
+        elif(horario >= 18 and horario <= 23):
             print("Boa Noite!")
         else:
             print("Boa Madrugada!")

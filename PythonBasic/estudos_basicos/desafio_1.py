@@ -9,8 +9,8 @@ n1 = input("Digite um número inteiro: ")
 if n1.isdigit():
     n1 = int(n1)
     if n1 % 2 == 0:
-        print("O número é par!")
+        print(f"{n1} é par!")
     else:
-        print("O número é impar!")
+        print(f"{n1} é impar!")
 else:
     print("Não é um número inteiro!")
