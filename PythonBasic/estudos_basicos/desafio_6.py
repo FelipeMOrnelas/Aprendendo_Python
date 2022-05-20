@@ -1,9 +1,11 @@
+from random import randint
+
+cpf = str(randint(100000000, 999999999))
+
 cpf_novo = list(range(0,11))
 solucao_1 = 0
 solucao_2 = 0
 converter = list(range(0,11))
-
-cpf = input("Digite seu cpf somente numero: ")
 
 for i, j in enumerate(cpf):
     cpf_novo[i] = int(j)
@@ -40,12 +42,7 @@ for i in range(0, 11):
 
 cpf_novo = ''.join(converter)
 
-sequencia = cpf_novo == str(cpf_novo[0] * 11)
-
-if cpf == cpf_novo and not sequencia:
-    print("CPF informado é Valido")
-else:
-    print("CPF informado é Invalido")
+print(cpf_novo)
 
 
 
