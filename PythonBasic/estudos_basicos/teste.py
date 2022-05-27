@@ -33,7 +33,46 @@
 # cpf_novo.pop()
 # cpf_novo.pop()
 
+#
+# cpf = list(range(0,11))
+# print(cpf)
 
-cpf = list(range(0,11))
 
-print(cpf)
+# number = []
+# num = [2, 5]
+# for n, i in enumerate(num):
+#     number.append(i)
+#
+# print(number[0]+number[1])
+#
+# n1 = 2.0
+# n2 = 5.0
+# res = (n1+n2)/2
+#
+# print('%.2f' % res + '\n')
+
+# import os
+#
+#
+# def avg(*nums):
+#     for n in range(*nums):
+#         n += n
+#
+#
+# print(avg(*nums))
+
+#
+# class Car:
+#     def __init__(self, max_speed, speed_unit):
+#         self.max_speed = max_speed
+#         self.speed_unit = speed_unit
+#         print(f'Car with the maximum speed of {max_speed} {speed_unit}')
+#         print('Car with the maximum speed of', max_speed, speed_unit)
+#         print('Car with the maximum speed of', max_speed, speed_unit)
+#         max_speed = str(max_speed)
+#         print(max_speed)
+#     pass
+#
+#
+# carro = Car('150', 'km/h')
+
