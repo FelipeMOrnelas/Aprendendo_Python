@@ -11,6 +11,10 @@ class Cliente(Pessoa):
     def comprar(self):
         print(f'{self.nomeclasse} comprando...')
 
+
 class Aluno(Pessoa):
     def estudando(self):
         print(f'{self.nomeclasse} estudando...')
+
+class ClienteVIP(Cliente):
+    pass
